@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="Test login form with empty credentials" timestamp="2025-10-26T22:35:16" time="4.664" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Test login form with empty credentials"/>
+      <property name="capabilities" value="firefox.144_0.windows"/>
+      <property name="file" value="file:///C:/Users/orozco/Desktop/Epam/FinalTask/src/specs/test.spec.js"/>
+    </properties>
+    <testcase classname="firefox.144_0.windows.Test_login_form_with_empty_credentials" name="Type any credential in username and password field and then clear both" time="3.74">
+      <system-out><![CDATA[
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/59864e14-fbf7-4f85-9cb2-d6a4450bb3a4/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/59864e14-fbf7-4f85-9cb2-d6a4450bb3a4/value - {"text":"anyValue"}
+RESULT: {"text":"anyValue"}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/ee49befe-6d79-42fb-b13f-6507594b834e/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/ee49befe-6d79-42fb-b13f-6507594b834e/value - {"text":"password"}
+RESULT: {"text":"password"}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/59864e14-fbf7-4f85-9cb2-d6a4450bb3a4/click - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"keyDown","value":"a"},{"type":"pause","duration":10},{"type":"keyUp","value":""},{"type":"keyUp","value":"a"}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"keyDown","value":"a"},{"type":"pause","duration":10},{"type":"keyUp","value":""},{"type":"keyUp","value":"a"}]}]}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/actions - {"actions":[{"id":"action2","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action2","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/ee49befe-6d79-42fb-b13f-6507594b834e/click - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/actions - {"actions":[{"id":"action3","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"keyDown","value":"a"},{"type":"pause","duration":10},{"type":"keyUp","value":""},{"type":"keyUp","value":"a"}]}]}
+RESULT: {"actions":[{"id":"action3","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"keyDown","value":"a"},{"type":"pause","duration":10},{"type":"keyUp","value":""},{"type":"keyUp","value":"a"}]}]}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/actions - {"actions":[{"id":"action4","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action4","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/223e6d32-bacc-4d7c-97ef-50e6c5b1f67c/click - {}
+RESULT: {}
+COMMAND: GET /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/72bbaa40-d197-46cc-ba81-551f50087eae/css/display - {}
+RESULT: {}
+COMMAND: GET /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/a51698ec-fb4b-476a-ba2a-86baaf708947/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.144_0.windows.Test_login_form_with_empty_credentials" name="Type any credential in username and password then clear password field" time="0.483">
+      <system-out><![CDATA[
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/ebdcad8f-4d78-4ff8-97eb-451f03a20c7f/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/ebdcad8f-4d78-4ff8-97eb-451f03a20c7f/value - {"text":"anyValue"}
+RESULT: {"text":"anyValue"}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/7a4152d1-a6aa-40bc-8cca-83a717ffb553/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/7a4152d1-a6aa-40bc-8cca-83a717ffb553/value - {"text":"password"}
+RESULT: {"text":"password"}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/7a4152d1-a6aa-40bc-8cca-83a717ffb553/click - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/actions - {"actions":[{"id":"action5","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"keyDown","value":"a"},{"type":"pause","duration":10},{"type":"keyUp","value":""},{"type":"keyUp","value":"a"}]}]}
+RESULT: {"actions":[{"id":"action5","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"keyDown","value":"a"},{"type":"pause","duration":10},{"type":"keyUp","value":""},{"type":"keyUp","value":"a"}]}]}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/actions - {"actions":[{"id":"action6","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action6","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/02e31b22-4f73-46b9-a713-add324b82da1/click - {}
+RESULT: {}
+COMMAND: GET /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/bc5f6831-a0bb-4efa-a56f-101d1dddb78e/css/display - {}
+RESULT: {}
+COMMAND: GET /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/ff073980-a935-43ad-a3eb-0194444dfc79/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.144_0.windows.Test_login_form_with_empty_credentials" name="Test loging form with credentials by passing accepted and password" time="0.437">
+      <system-out><![CDATA[
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/f6f8bf91-c5e5-4f5e-a03d-4a51f13535a4/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/f6f8bf91-c5e5-4f5e-a03d-4a51f13535a4/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/9f19fb71-9aa4-4331-afc9-bb48d18c28ab/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/9f19fb71-9aa4-4331-afc9-bb48d18c28ab/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/0aae2a6b-2e51-419f-a225-6d17d53e930d/click - {}
+RESULT: {}
+COMMAND: GET /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/element/7dc7ef51-65f4-4957-a95f-9d0f19b51f44/css/display - {}
+RESULT: {}
+COMMAND: GET /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee/title - {}
+RESULT: {}
+COMMAND: DELETE /session/c7ffe795-7b7f-41dc-b2a5-e224de789eee - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
