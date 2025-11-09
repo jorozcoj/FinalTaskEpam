@@ -22,7 +22,7 @@ exports.config = {
     //
     specs: [
         // ToDo: define location for spec files here
-        'src/specs/**/*spec.js'
+        'src/tests/**/*spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -44,7 +44,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 3,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -52,6 +52,7 @@ exports.config = {
     //
     capabilities: [{
         browserName: 'chrome',
+        //browserVersion:'141',
         maxInstances: 5
     }
         , {
@@ -101,11 +102,11 @@ exports.config = {
     baseUrl: 'https://www.saucedemo.com/',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 5000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
-    connectionRetryTimeout: 120000,
+    connectionRetryTimeout: 60000,
     //
     // Default request retries count
     connectionRetryCount: 3,
@@ -137,7 +138,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec', [
+    /* reporters: ['spec', [
         "junit", {
             outputDir: "./report",
             outputFileFormat: function (options) {
@@ -150,7 +151,7 @@ exports.config = {
             disableWebdriverStepsReporting: true,
             disableWebdriverScreenshotsReporting: true,
         }]
-    ],
+    ], */
 
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
