@@ -55,10 +55,10 @@ exports.config = {
         //browserVersion:'141',
         maxInstances: 5
     }
-        , {
+        /* , {
             browserName: 'firefox',
             maxInstances: 5
-        } /*, {
+        }  *//*, {
             browserName: 'safari'
         }*/
         /*, {
