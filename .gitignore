@@ -1,5 +1,5 @@
 node_modules
-reports/
+report/
 allure-results/
 allure-report/
 .env
