@@ -1,7 +1,7 @@
 # FinalTaskEpam
 
 ### Description
-This project automates login tests for [SauceDemo](https://www.saucedemo.com/) using **WebdriverIO with mocha.
+This project contains automated UI tests using WebdriverIO with mocha.
 
 ### Test Cases
 
@@ -14,5 +14,5 @@ This project automates login tests for [SauceDemo](https://www.saucedemo.com/) u
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/qa-automation-saucedemo.git
-   cd qa-automation-saucedemo
+   git clone https://github.com/jorozcoj/FinalTaskEpam.git
+   cd FinalTaskEpam
